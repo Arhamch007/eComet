@@ -464,7 +464,7 @@ body {
 
 #team {
   height: 100vh;
-  /* padding-top: 100px; */
+  padding-top: 100px;
 }
 
 #team h1 {
@@ -485,8 +485,8 @@ body {
 }
 
 .team-1 img {
-  height: 50px;
-  width: 50px;
+  height: 250px;
+  width: 250px;
 }
 
 .team-1 h2 {
@@ -499,7 +499,6 @@ body {
   color: #eee;
   font-size: 19px;
   padding-top: 15px;
-  /* letter-spacing: 5px; */
 }
 
 .team-2 {
@@ -508,8 +507,8 @@ body {
 }
 
 .team-2 img {
-  height: 50px;
-  width: 50px;
+  height: 250px;
+  width: 250px;
 }
 
 .team-2 h2 {
@@ -522,7 +521,10 @@ body {
   color: #eee;
   font-size: 19px;
   padding-top: 15px;
-  /* letter-spacing: 5px; */
+}
+.dp {
+  font-size: 18px;
+  
 }
 
 /* Footer */
@@ -830,4 +832,73 @@ body {
   .contact-title{
     font-size: 25px;
   }
+  /* Team */
+  #team {
+    height: 110vh;
+    width: 100%;
+    padding-top: 100px;
+  }
+  
+  #team h1 {
+    text-align: center;
+    color: #ffbd39;
+    font-weight: bold;
+    font-size: 25px;
+  }
+  
+  .team-1 {
+    padding-top: 50px;
+    text-align: center;
+  }
+  
+  .team-1 {
+    padding-top: 30px;
+    text-align: center;
+  }
+  
+  .team-1 img {
+    height: 190px;
+    width: 190px;
+  }
+  
+  .team-1 h2 {
+    color: #eee;
+    font-weight: bold;
+    padding-top: 17px;
+    font-size: 21px;
+  }
+  
+  .team-1 p {
+    color: #eee;
+    font-size: 15px;
+    padding-top: 15px;
+  }
+  
+  .team-2 {
+    padding-top: 50px;
+    text-align: center;
+  }
+  
+  .team-2 img {
+    height: 190px;
+    width: 190px;
+  }
+  
+  .team-2 h2 {
+    font-weight: bold;
+    color: #eee;
+    font-size: 21px;
+    padding-top: 17px;
+  }
+  
+  .team-2 p {
+    color: #eee;
+    font-size: 15px;
+    padding-top: 15px;
+  }
+  .dp {
+    font-size: 15px;
+    
+  }
+  
 }
