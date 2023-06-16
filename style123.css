@@ -1,0 +1,80 @@
+.project-img {
+  max-width: 100%;
+}
+.gallery {
+  /* background-color: #dbddf1; */
+  padding: 7px 0;
+}
+.gallery img {
+  background-color: #ffbd39;
+  padding: 5px;
+  width: 100%;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+.project-img:hover {
+  opacity: 0.3;
+}
+.pg {
+  width: 100vw;
+  background-color: black;
+}
+.pg1 {
+  background-color: black;
+}
+#modal_paragraph {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
+}
+.modal-img {
+  /* width: 100%; */
+  /* float: right; */
+  height: 200px;
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+#modal_paragraph1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* text-align: center; */
+}
+.model-2{
+	padding-top: 15px;
+}
+.modal-img_1 {
+  height: 200px;
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+.modal-img_2 {
+  float: right;
+  height: 200px;
+  width: 200px;
+}
+/* .model-1{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+} */
+/* #modal_paragraph1{
+	padding-top: 50px;
+	background-color: #ffbd39;
+}
+#modal_paragraph2{
+	padding-top: 50px;
+}
+.model-2{
+	padding-top: 50px;
+}
+.model-3{
+	padding-top: 50px;
+} */
