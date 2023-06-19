@@ -820,7 +820,7 @@ body {
   /* Project  */
   .project-title {
     padding-top: 1px;
-    padding-bottom: 25px;
+    padding-bottom: 35px;
     display: flex;
     justify-content: center;
     color: #ffbd39;
@@ -829,11 +829,13 @@ body {
   }
 
   /* Contact */
+
   #contact_description{
     text-align: center;
     font-size: 17px;
   }
   .contact-title{
+    padding-top: 12px !important;
     font-size: 25px;
   }
   /* Team */
@@ -907,5 +909,10 @@ body {
     font-size: 15px;
     
   }
-  
+  .contact-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh !important;
+  }
 }
