@@ -762,7 +762,7 @@ body {
   }
 
   .logo-slider {
-    height: 85vh !important;
+    height: 100vh !important;
     width: 100%;
   }
 
@@ -829,7 +829,9 @@ body {
   }
 
   /* Contact */
-
+#contact{
+  padding-top: 130px;
+}
   #contact_description{
     text-align: center;
     font-size: 17px;
@@ -843,7 +845,7 @@ body {
     width: 100% !important;
   }
   #team {
-    height: 110vh;
+    height: 100vh;
     width: 100%;
     padding-top: 100px;
   }
@@ -915,4 +917,6 @@ body {
     align-items: center;
     
   } */
+
+
 }
