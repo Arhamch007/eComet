@@ -166,7 +166,7 @@ body {
 
 /* Services */
 .Service-title {
-  padding-top: 110px;
+  padding-top: 145px;
   display: flex;
   justify-content: center;
   color: #ffbd39;
@@ -462,9 +462,13 @@ body {
 
 /* Team */
 
+.team-container{
+  width: 65% !important;
+}
 #team {
   height: 100vh;
   padding-top: 100px;
+  
 }
 
 #team h1 {
@@ -472,11 +476,6 @@ body {
   color: #ffbd39;
   font-weight: bold;
   font-size: 40px;
-}
-
-.team-1 {
-  padding-top: 50px;
-  text-align: center;
 }
 
 .team-1 {
@@ -833,6 +832,9 @@ body {
     font-size: 25px;
   }
   /* Team */
+  .team-container{
+    width: 100% !important;
+  }
   #team {
     height: 110vh;
     width: 100%;
