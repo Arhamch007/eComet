@@ -83,7 +83,27 @@ footer {
   .location a:hover {
     color: #c0ab83;
   }
-  
+  .footer-icons{
+    margin-top: 25px;
+  }
+.footer-icons a{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    /* background-color:  #33383B; */
+    border-radius: 2px;
+    font-size: 20px;
+    color: #ffbd39;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+.footer-icons a:hover{
+  color: #c0ab83;
+
+}
   /* Media Query for screens smaller than 768px */
   @media (max-width: 768px) {
     .footer-container {
@@ -132,3 +152,6 @@ footer {
       }
   }
   
+  .footer-company-name{
+    color: #EEE;
+  }
