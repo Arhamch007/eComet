@@ -645,7 +645,7 @@ ul li a:hover {
 
   /* ABOUT */
   .mid {
-    height: 70vh;
+    height: 100vh;
     padding-top: 1px;
     display: flex;
     justify-content: center;
@@ -745,7 +745,7 @@ ul li a:hover {
   /* Skills */
 
   #skills{
-    height: 80vh !important;
+    height: 100vh !important;
   }
   .skills-title {
     /* padding-top: 15vh !important; */
@@ -765,7 +765,7 @@ ul li a:hover {
   }
 
   .logo-slider {
-    height: 80vh !important;
+    height: 100vh !important;
     width: 100%;
   }
 
@@ -848,7 +848,7 @@ ul li a:hover {
     width: 100% !important;
   }
   #team {
-    height: 100vh;
+    height: auto;
     width: 100%;
     padding-top: 150px;
   }
