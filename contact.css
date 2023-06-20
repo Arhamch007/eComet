@@ -10,7 +10,9 @@
     padding: 20px;
     border-radius: 5px;
   }
-  
+  .contact-form label{
+    color: #eee;
+  }
   .contact-form h1 {
     text-align: center;
     color:#ffbd39;
