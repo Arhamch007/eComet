@@ -455,19 +455,14 @@
         <form id="contact-form" class="contact-form">
           <h1>Email Us</h1>
           <label for="name">Name:</label>
-          <input type="text" id="name" name="name" placeholder="Enter Your Name" required>
-          <!-- minlength="3" maxlength="15" -->
+          <input type="text" id="name" name="name"  placeholder="Enter Your Name" required>
           <label for="email">Email:</label>
           <input type="email" id="email" name="email" placeholder="Enter Your Email" required>
-          <!-- minlength="12" maxlength="25" -->
           <label for="email">Contact Number:</label>
           <input type="tel" id="number" name="number"  placeholder="Enter Your Number"  required>
-
-          <!-- minlength="11" pattern="^((\+92)|(0092))-{0,1}\d{3}-{0,1}\d{7}$|^\d{11}$|^\d{4}-\d{7}$"
-          title="Please enter number in format e.g. +923367966034" -->
           <label for="message">Message:</label>
           <textarea id="message" name="message" required  placeholder="Enter Your Message"></textarea>
-          <button onclick="sendMail()" id="btn" class="button_Submit">Send</button>
+          <button id="btn" class="button_Submit">Send</button>
         </form>
       </div>
     

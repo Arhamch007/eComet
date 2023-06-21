@@ -1,15 +1,3 @@
-// function SendMail() {
-//     var params = {
-//      from_name : document.getElementById("fullname").value,
-//     email_id : document.getElementById("email_id").value,
-//     number_id : document.getElementById("numbere_id").value,
-//     message : document.getElementById("message").value
-//     }
-//     emailjs.send("service_l2dn5jo","template_s2d0j01",params).then(function(res){
-//         alert("success!"+ res.status);
-//     })
-// }
-
 // Working with emailjs
 // function sendMail() {
 //   var params = {
@@ -36,24 +24,56 @@
 
 // }
 
+var btn = document.getElementById("btn");
+btn.addEventListener("click", function (e) {
+  e.preventDefault();
+  var nameInput = document.getElementById("name");
+  var emailInput = document.getElementById("email");
+  var numberInput = document.getElementById("number");
+  var messageInput = document.getElementById("message");
 
+  var name = nameInput.value.trim();
+  var email = emailInput.value.trim();
+  var number = numberInput.value.trim();
+  var message = messageInput.value.trim();
 
+  // Validate input fields
+  if (name === "" || email === "" || number === "" || message === "") {
+    alert("Please fill in all fields.");
+    return;
+  }
 
-var btn = document.getElementById('btn');
-btn.addEventListener('click', function(e){
-    e.preventDefault()
-    var name = document.getElementById('name').value;
-    var email = document.getElementById('email').value;
-    var number = document.getElementById('number').value;
-    var message = document.getElementById('message').value;
-    var body = 'name: '+name+ '<br> email: '+email+ '<br> number: '+number+ '<br> message: '+message;
-    Email.send({
-    SecureToken : "507d8b25-6a50-45b5-821b-97a1ec68caaf",
-    To : 'ecomet.technologies@gmail.com',
-    From : "ddamas850@gmail.com",
-    Subject : "Contact message",
-    Body : body
-}).then(
-message => alert("Your email is send Successfully!")
-);
-})
+  // Validate email format
+  var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  if (!emailPattern.test(email)) {
+    alert("Please enter a valid email address.");
+    return;
+  }
+  // Validate number format
+  var numberPattern = /^[0-9]+$/;
+  if (!numberPattern.test(number)) {
+    alert("Contact Number should only contain numbers.");
+    return;
+  }
+
+  var body =
+    "name: " +
+    name +
+    "<br> email: " +
+    email +
+    "<br> number: " +
+    number +
+    "<br> message: " +
+    message;
+  Email.send({
+    SecureToken: "507d8b25-6a50-45b5-821b-97a1ec68caaf",
+    To: "ecomet.technologies@gmail.com",
+    From: "ddamas850@gmail.com",
+    Subject: "Contact message",
+    Body: body,
+  }).then(function (message) {
+    alert("Your email has been sent successfully!");
+    // Reload page
+    location.reload();
+  });
+});
