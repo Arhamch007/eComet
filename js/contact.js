@@ -49,11 +49,11 @@ btn.addEventListener('click', function(e){
     var body = 'name: '+name+ '<br> email: '+email+ '<br> number: '+number+ '<br> message: '+message;
     Email.send({
     SecureToken : "507d8b25-6a50-45b5-821b-97a1ec68caaf",
-    To : 'ecomet-technologies@gmail.com',
+    To : 'ecomet.technologies@gmail.com',
     From : "ddamas850@gmail.com",
     Subject : "Contact message",
     Body : body
 }).then(
-message => alert(message)
+message => alert("Your email is send Successfully!")
 );
 })
