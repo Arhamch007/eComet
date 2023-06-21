@@ -33,7 +33,7 @@
   .contact-form button {
     width: 100%;
   }
-  #button_Submit{
+  .button_Submit{
     background-color: #ffbd39;
     color: #000;
     border: none;
@@ -61,7 +61,7 @@ textarea{
   text-align: center !important;
  margin:  auto;
 }
-#button_Submit{
+.button_Submit{
     width: 10vw !important;
     border-radius: 5px !important;
     padding: 10px ;
