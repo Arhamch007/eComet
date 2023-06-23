@@ -102,7 +102,7 @@ footer {
   color: #c0ab83;
 
 }
-  /* Media Query for screens smaller than 768px */
+
   @media (max-width: 768px) {
     .footer-container {
       flex-direction: column;
@@ -116,19 +116,16 @@ footer {
     .footer-left,
     .footer-right {
       margin-bottom: 20px;
-      /* Adjust the spacing as needed */
       text-align: center;
     }
   
     .footer-list {
       margin-bottom: 20px;
-      /* Adjust the spacing as needed */
     }
   
     .social-icons {
       margin-left: 0;
       margin-top: 10px;
-      /* Adjust the spacing as needed */
     }
     .location {
         display: flex;
@@ -137,16 +134,20 @@ footer {
         font-size: 12px;
         color: white;
         line-height: 30px;
+        margin: 0;
       }
       .location i{
         font-size: 25px;
         line-height: 25px;
+        margin: 0;
       }
       .location p{
         font-size: 15px;
+        margin: 0;
       }
       .location a{
         font-size: 15px;
+        margin: 0;
       }
   }
   

@@ -18,6 +18,9 @@
 .contact-form h1 {
   text-align: center;
   color: #ffbd39;
+  font-weight: bold;
+  font-size: 40px;
+  
 }
 
 .contact-form label,
@@ -77,7 +80,7 @@ textarea {
 
 }
 
-@media only screen and (min-width: 200px) and (max-width: 767px) {
+@media only screen and (min-width: 300px) and (max-width: 767px) {
   input {
     width: 70vw !important;
   }
@@ -88,5 +91,35 @@ textarea {
 
   .button_Submit {
     width: 70vw !important;
+  }
+  .contact-form h1 {
+    text-align: center;
+    color: #ffbd39;
+    font-weight: bold;
+    font-size: 25px;
+    
+  }
+  
+}
+
+@media only screen and (min-width: 0px) and (max-width: 300px){
+  input {
+    width: 70vw !important;
+  }
+
+  textarea {
+    width: 70vw !important;
+  }
+
+  .button_Submit {
+    width: 70vw !important;
+  }
+  .contact-form h1 {
+    text-align: center;
+    color: #ffbd39;
+    font-weight: bold;
+    font-size: 17px;
+    padding-bottom: 15px;
+    
   }
 }
