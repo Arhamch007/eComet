@@ -893,9 +893,9 @@ body {
 }
 @media only screen and (min-width: 300px) and (max-width: 469px) {
 
-  .carousel {
+  /* .carousel {
     height: 90vh !important;
-  }
+  } */
 
   
   .carousel-inner {
@@ -976,8 +976,8 @@ body {
   }
   /* ABOUT */
   .mid {
-    height: 100vh;
-    padding-top: 1px;
+    height: auto;
+    padding-top: 35px;
     display: flex;
     justify-content: center;
   }
@@ -1020,13 +1020,9 @@ body {
   }
 
   /* Services */
-  #services {
-    padding-top: 5vh !important;
-
-  }
 
   .Service-title {
-    padding-top: 5vh;
+    padding-top: 150px;
     font-size: 25px;
   }
 
@@ -1076,10 +1072,10 @@ body {
   /* Skills */
 
   #skills{
-    height: 100vh !important;
+    height: auto !important;
   }
   .skills-title {
-    padding-top: 100px !important;
+    padding-top: 150px !important;
     display: flex;
     justify-content: center;
     color: #ffbd39;
@@ -1096,7 +1092,7 @@ body {
   }
 
   .logo-slider2 {
-    height: 100vh !important;
+    height: auto !important;
     width: 100%;
   }
 
@@ -1153,7 +1149,7 @@ body {
 
   /* Project  */
   .project-title {
-    padding-top: 1px;
+    padding-top: 150px;
     padding-bottom: 35px;
     display: flex;
     justify-content: center;

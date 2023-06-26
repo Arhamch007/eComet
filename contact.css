@@ -81,6 +81,27 @@ textarea {
 }
 
 @media only screen and (min-width: 300px) and (max-width: 767px) {
+
+  .contact-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+  }
+  .contact-form h1 {
+    text-align: center;
+    color: #ffbd39;
+    font-weight: bold;
+    padding-top: 150px;
+    font-size: 25px;
+}
+.contact-form {
+  max-width: 600px;
+  padding: 20px;
+  border-radius: 5px;
+  padding-bottom: 150px;
+}
+
   input {
     width: 70vw !important;
   }
